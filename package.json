@@ -1,0 +1,25 @@
+{
+  "name": "crypto-exchange-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot automatically exchanging crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "crypto",
+    "exchange",
+    "deposit",
+    "withdraw"
+  ],
+  "author": "techo0219",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "node-binance-api": "^0.13.1",
+    "telegraf": "^4.12.2"
+  }
+}
